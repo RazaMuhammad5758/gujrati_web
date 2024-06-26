@@ -34,7 +34,7 @@ const Router = () => {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-    {['home', '/', ].map(path => <Route path={path} element={<Home />} />)}
+    {[ '/' ].map(path => <Route path={path} element={<Home />} />)}
         <Route  path='/authors' element={<Authors/>}/>
         <Route  path='/aboutus' element={<Aboutus/>}/>
         <Route  path='/donate' element={<Donate/>}/>
